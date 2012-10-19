@@ -10,9 +10,10 @@
     <script>
       
       function sayHello(){
-        
+        var count = 1;
         for(var i=0;i<3;i++){
-          alert('Hello!');
+          alert('Hello! count: ' + count);
+          count++;
         }
         
       }

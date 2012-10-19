@@ -17,6 +17,10 @@
         }
         
       }
+
+      function saySomething(something){
+        alert(something);       
+      }
       
       function sayGoodbye(){
 
@@ -25,6 +29,7 @@
       }
             
       sayHello();
+      saySomething('something');
       sayGoodbye();
       
     </script>

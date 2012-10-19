@@ -11,9 +11,11 @@
       
       function sayHello(){
         var count = 1;
+        var c2 = 2;
         for(var i=0;i<3;i++){
-          alert('Hello! count: ' + count);
+          alert('Hello! count: ' + count + " " + c2);
           count++;
+          c2++;
         }
         
       }

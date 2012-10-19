@@ -10,11 +10,15 @@
     <script>
       
       function sayHello(){
-        
-        alert('Hello!');
+        var count = 1;
+        for(var i=0;i<3;i++){
+          alert('Hello! count: ' + count);
+          count++;
+        }
         
       }
       
+<<<<<<< HEAD
       function sayGoodbye(){
 
         alert('Goodbye!');
@@ -24,6 +28,9 @@
       
       sayHello();
       sayGoodbye();
+=======
+
+>>>>>>> multiple-hello
       
     </script>
     

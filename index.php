@@ -15,6 +15,16 @@
         
       }
       
+      function sayGoodbye(){
+
+        alert('Goodbye!');
+        
+      }
+      
+      
+      sayHello();
+      sayGoodbye();
+      
     </script>
     
   </body>

@@ -17,6 +17,8 @@
         
       }
       
+      sayHello();
+      
     </script>
     
   </body>

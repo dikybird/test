@@ -18,19 +18,14 @@
         
       }
       
-<<<<<<< HEAD
       function sayGoodbye(){
 
         alert('Goodbye!');
         
       }
-      
-      
+            
       sayHello();
       sayGoodbye();
-=======
-
->>>>>>> multiple-hello
       
     </script>
     
